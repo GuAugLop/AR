@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "http-server ./ar.html -e html",
+    "start": "http-server ./index.html -e html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
