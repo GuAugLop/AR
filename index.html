@@ -7,7 +7,7 @@
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
     <script>
-      alert("box");
+      alert("abc");
     </script>
   </head>
 
@@ -19,11 +19,13 @@
       <a-box
         material="color: red"
         value="Aleatorio"
+        look-at="[gps-camera]"
         gps-entity-place="latitude: -15.848452; longitude: -47.959307;"
       />
       <a-box
         material="color: yellow"
         value="Atacadista"
+        look-at="[gps-camera]"
         gps-entity-place="latitude: -15.848219; longitude: -47.964846;"
       />
       <a-camera gps-camera rotation-reader> </a-camera>
