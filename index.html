@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
     <script>
-      alert("add");
+      alert("kk");
     </script>
   </head>
 
@@ -22,15 +22,25 @@
         value="Aleatorio"
         look-at="[gps-camera]"
         scale="20 20 0"
-        gps-entity-place="latitude: -15.8484529592891; longitude: -47.95930794334474;"
+        gps-entity-place="latitude: -15.848452; longitude: -47.959307;"
       ></a-text>
       <a-text
-      value="Atacadista"
-      look-at="[gps-camera]"
-      scale="20 20 0"
-      gps-entity-place="latitude: -15.848219296888074; longitude: -47.9648465756402;"
-    ></a-text>
-      <a-camera alert positionMinAccuracy="500" maxDistance="5" gpsMinDistance="100" gpsTimeInterval="10000" gps-camera rotation-reader> </a-camera>
+        value="Atacadista"
+        look-at="[gps-camera]"
+        scale="20 20 0"
+        gps-entity-place="latitude: -15.848219; longitude: -47.964846;"
+      ></a-text>
+      <a-camera
+        alert
+        <!--
+        positionMinAccuracy="500"
+        maxDistance="5"
+        gpsMinDistance="100"
+        gpsTimeInterval="10000"
+        --
+      >
+        gps-camera rotation-reader >
+      </a-camera>
     </a-scene>
   </body>
 </html>
