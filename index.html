@@ -7,13 +7,13 @@
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
     <script defer>
-      alert("intervasdasdad");
+      alert("yellow");
       setInterval(() => {
         const distanceMsg = document
           .querySelector("[gps-entity-place]")
           .getAttribute("distanceMsg");
         alert(distanceMsg); // "890 meters"
-      }, 25000);
+      }, 15000);
     </script>
   </head>
   <body>
@@ -22,9 +22,9 @@
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
     >
       <a-box
-        material="color: red"
-        value="Aleatorio"
-        gps-entity-place="latitude: -15.786932; longitude: -47.884311;"
+        material="color: yellow"
+        value="Liberty Mall"
+        gps-entity-place="latitude: -15.786834191327841; longitude: -47.884378254410954;"
       />
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
