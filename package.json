@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "http-server ./index.html -e html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "git add .; git commit -m ','; git push"
   },
   "author": "",
   "license": "ISC"

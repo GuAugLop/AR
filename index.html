@@ -21,9 +21,10 @@
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
     >
-      <a-box
-        material="color: yellow"
+      <a-text
+        scale="2 2 2"
         value="Liberty Mall"
+        look-at="[gps-camera]"
         gps-entity-place="latitude: -15.786834191327841; longitude: -47.884378254410954;"
       />
       <a-camera gps-camera rotation-reader> </a-camera>
