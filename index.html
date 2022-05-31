@@ -7,12 +7,13 @@
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
     <script defer>
+      alert("new");
       setTimeout(() => {
         const distanceMsg = document
           .querySelector("[gps-entity-place]")
           .getAttribute("distanceMsg");
         alert(distanceMsg); // "890 meters"
-      }, []);
+      }, 10000);
     </script>
   </head>
 
@@ -25,7 +26,7 @@
         material="color: red"
         value="Aleatorio"
         look-at="[gps-camera]"
-        gps-entity-place="latitude: -15.848452; longitude: -47.959307;"
+        gps-entity-place="latitude: -15.848548; longitude: -47.961532;"
       />
       <a-box
         material="color: yellow"
