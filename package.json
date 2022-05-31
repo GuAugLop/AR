@@ -8,8 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "http-server ./index.html -e html",
-    "deploy": "git add .; git commit -m ','; git push"
+    "start": "http-server ./index.html -e html"
   },
   "author": "",
   "license": "ISC"
